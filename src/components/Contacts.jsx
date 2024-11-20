@@ -26,7 +26,7 @@ const Contacts = () => {
         
         </form>
       </main>
-      Contacts</div>
+      </div>
   )
 }
 
