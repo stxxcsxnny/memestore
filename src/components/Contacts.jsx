@@ -17,7 +17,7 @@ const Contacts = () => {
           </div>
 
           <div> 
-            <label htmlFor="">Message</label>
+            <label htmlFor="">Feedback</label>
             <input type="text"  required placeholder='tell me about  you' />
           </div>
 
