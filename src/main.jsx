@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter as Router , Routes, Route } from 'react-router-dom'
+import{ HashRouter } from 'react-router-dom'
 
 import App from './App.jsx'
 import Home from './components/Home.jsx'
@@ -23,7 +24,7 @@ import './styles/mediaquery.scss'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     
-   < Router>
+   <  HashRouter>
       <Header />
       <Routes>
        <Route path='/' element={<Home />} />
@@ -36,7 +37,7 @@ createRoot(document.getElementById('root')).render(
       
 
     
-    </Router>
+    </HashRouter>
 
   </StrictMode>
 )
