@@ -7,15 +7,15 @@ import { HashLink } from 'react-router-hash-link'
 const header = () => {
   return (
     <nav>
-      <h1>Sunny</h1>
+      <h1>Memestore</h1>
 
       <main>
         
         <HashLink to={"/#home"}>home</HashLink>
         <HashLink to={"/#about"}>about</HashLink>
         <Link to={"/contact"}>contact</Link>
-        <HashLink to={"/#brands"}>brands</HashLink>
-        <Link to={"/services"}>services</Link>
+        <HashLink to={"/#brands"}>memes</HashLink>
+        <Link to={"/services"}>material</Link>
 
         
       </main>
