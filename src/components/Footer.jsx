@@ -6,7 +6,7 @@ const Footer = () => {
           <footer>
               
               <div>
-                  <h1>memes</h1>
+                  <h1>Memestore</h1>
                   <p>@ all right reserved</p>
               </div>
               <div>
