@@ -1,4 +1,5 @@
 import React from 'react'
+import { AiFillInstagram, AiFillTwitterCircle, AiFillYoutube, AiFillFacebook } from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -6,16 +7,16 @@ const Footer = () => {
           <footer>
               
               <div>
-                  <h1>Memestore</h1>
+                  <h1>memestore</h1>
                   <p>@ all right reserved</p>
               </div>
               <div>
                   <h5>Follow us</h5>
                   <div>
-                      <a href="https://www.facebook.com/"target={"blank"} >Facebook</a>
-                      <a href="https://www.instagram.com/stxxcsxnny/" target={'blank'}>Instagram</a>
-                      <a href="https://www.twitter.com/"target={'blank'}>Twitter</a>
-                      <a href="https://www.youtube.com/"target={'blank'}>Youtube</a>
+                      <a href=""target={"blank"} ><AiFillFacebook/></a>
+                      <a href="https://www.instagram.com/stxxcsxnny/" target={'blank'}>< AiFillInstagram/></a>
+                      <a href="https://www.twitter.com/"target={'blank'}>< AiFillTwitterCircle/></a>
+                      <a href="https://www.youtube.com/"target={'blank'}><AiFillYoutube/></a>
                   </div>
               </div>
         </footer>

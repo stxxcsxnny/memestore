@@ -10,6 +10,7 @@
     > main{
         position: absolute;
         text-transform: uppercase;
+    
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -20,7 +21,11 @@
 
          h1{
             font: 400 6rem $text1;
-            color: $first;
+            font-family: "Moo Lah Lah", sans-serif;
+             font-weight: 400;
+             font-style: normal;
+              color: rgb(234, 232, 243);
+
          }
          p{
             font: 900 1rem $text1;
@@ -53,6 +58,8 @@
    > img{
     width: 30%;
     border-radius: 2%;
+    
+
     animation: imgUp 0.7s linear infinite alternate;
    }
    > div{
@@ -109,9 +116,12 @@
         > p{
             padding: 5rem;
             letter-spacing: 1px;
-            word-spacing: 5px;
+            word-spacing: 10px;
             line-height: 170%;
-            font: 100 1.2rem $text2;
+            font-family: "Mountains of Christmas", serif;
+  
+            font-style: normal;
+            font-weight: bold;
 
         }
     }
@@ -136,6 +146,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
+        
     
 
     > h1{
@@ -143,7 +155,11 @@
         border-bottom: 2px solid 140px ;
         padding: 0.5rem;
         width: 140px;
-        color: $first;
+        color: rgb(15, 15, 15);
+          
+      font-family: "Rubik Puddles", system-ui;
+        font-style: normal;
+
     }
 
     > article{
@@ -152,31 +168,34 @@
         word-spacing: 5px;
         display: flex;
         flex-wrap: wrap;
+        padding: 29px;
+        
         >div{
             animation: imgUp 0.7s infinite alternate;
-margin: 1rem;
-height: 10rem;
-width: 10rem;
-background-color: $first;
-border-radius: 50%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-color: $dark;
-cursor: pointer;
-transition: all 0.5s ;
+            
 
- &:hover{
-    filter: invert(1);
-        }
-        svg{
-            font-size: 4rem;
-        }
-        p{
-            font: 900 1.2rem $text2;
-        }
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-gap: 40px;
+            margin-top: 20px;
 
+    
+
+       >img{
+         width: 10rem;
+         height: 9rem;
+         border-radius: 10%;
+         margin: 1rem;
+
+         &:hover{
+            
+             
+             transform: translateY(-10px) scale(1.5) ;
+
+         }
+       }
+    
+       
     }
 }
 
